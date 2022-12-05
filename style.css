@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Avenir, Sora, Helvetica;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(36, 36, 36);
+}
+
+canvas {
+    margin-top: 16px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #6484aa;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: white
+}
+
+#errorMessage {
+    color: tomato;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 10%;
+}
